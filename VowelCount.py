@@ -7,3 +7,4 @@ for i in range(len(str)-1):
     if str[i] in vowels:
         c+=1
 print(c)
+

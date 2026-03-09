@@ -7,6 +7,8 @@ while(num>0):
     nums.append(r)
 ans=True
 nums.reverse()
+# for i in range(5):
+#     print(i)
 for i in range(len(nums)-1):
     if({nums[i]<nums[i+1]}):
         ans=True
