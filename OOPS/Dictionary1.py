@@ -29,3 +29,13 @@ print(student)
 print(student.pop("name"))
 print(student)
 
+#  frequency count
+text = "python programming"
+freq = {}
+
+for char in text:
+    if char in freq:
+        freq[char] += 1
+    else:
+        freq[char] = 1
+print(freq)
