@@ -39,3 +39,4 @@ for char in text:
     else:
         freq[char] = 1
 print(freq)
+
