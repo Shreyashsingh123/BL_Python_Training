@@ -35,3 +35,13 @@ print(sorted(det,key=lambda x:(x["age"],x["name"])))
 
 # max age in ls
 print(max(det,key=lambda x:x["age"]))
+
+# fibonacci
+n=5
+fib=[0,1]
+[fib.append(fib[i-1]+fib[i-2]) for i in range(2,n)]
+print(fib)
+
+num=1280
+l=[i for i in range(1,num+1) if num%i==0]
+print(l)
